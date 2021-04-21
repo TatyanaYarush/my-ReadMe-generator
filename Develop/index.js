@@ -1,7 +1,6 @@
 // TODO: Include packages needed for this application
 const inquirer = require("inquirer");
-const fs = require("fs"); //Node standard library package for reading and writing files
-// const axios = require('axios');
+const fs = require("fs"); 
 
 const util = require("util");
 const generateMarkdown = require("./utils/generateMarkdown");
@@ -75,12 +74,6 @@ const questions = [
     type: "input",
     name: "username",
     message: "What is your GitHub username?",
-
-    // {
-    //     type: "input",
-    //     name: "repo",
-    //     message: "What is your repo link?"
-    //
   },
 ];
 
@@ -106,53 +99,4 @@ function init() {
 
 init();
 
-// function init() {
-//   inquirer.prompt(questions).then((responses) => {
-//     // console.log(responses);
-//     writeToFile("./output/README.md", generateMarkdown({ ...responses }));
-//   });
-// }
 
-// init();
-
-// const file = generate(fileName, data)
-// writeFile(fileName, data, err => {
-//     if (err) {
-//       throw err;
-//     }
-//   });
-// }
-
-// TODO: Create a function to initialize app
-// function init() {
-//     inquirer
-//   .prompt(questions)
-//   .then(answers => {
-//       console.log(answers);
-
-//   })
-//   .catch(error =>{
-//     if(error.isTtyError) {
-//       // Prompt couldn't be rendered in the current environment
-//     } else {
-//       // Something else went wrong
-//     }
-//   });
-// }
-
-// function init() {
-//     prompt(questions).then(answers => {
-
-//         const response = generateMarkdown(answers);
-//         console.log(answers);
-
-// writeToFile("README.md", response);
-// console.log("New README file created with success!");
-
-//     })
-
-// }
-
-// Function call to initialize app
-
-// console.log("New README file created with success!");

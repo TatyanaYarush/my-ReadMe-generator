@@ -5,7 +5,6 @@ function generateMarkdown(data) {
   # ${data.title}
   https://github.com/${data.username}/${data.title}
 
-
   ## Table of Contents
   -[Description](#description)
   -[Installation](#installation)
@@ -13,8 +12,7 @@ function generateMarkdown(data) {
   -[Usage](#usage)
   -[Contribution](#contribution)
   -[Test](#test)
-
-
+=
   ## Description
   ${data.description}
 
@@ -33,13 +31,11 @@ function generateMarkdown(data) {
   ## Test
   ${data.test}
 
-
  ## Questions
  For any additional information or questions find me at:
 
   Email:[${data.email}](mailto:tatyana.yarushin@gmail.com)
   Github:[${data.username}](https://github.com/TatyanaYarush)
-
 `
 }
 
