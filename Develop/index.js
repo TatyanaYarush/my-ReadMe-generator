@@ -58,7 +58,7 @@ const questions = [
     type: "input",
     name: "test",
     message:
-      "Please provede test instructions, what command are need ti test this app?",
+      "Please provede test instructions, what command are need to test this app?",
   },
   {
     type: "input",
