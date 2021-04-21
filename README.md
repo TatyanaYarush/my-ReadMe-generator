@@ -28,7 +28,7 @@
   N/A
 
   ## Test
-  Use the node index.js
+  Use the node index.js command
 
  ## Questions
  For any additional information or questions find me at:
