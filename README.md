@@ -36,3 +36,6 @@
  - Email: [tatyana.yarushin@gmail.com](mailto:tatyana.yarushin@gmail.com)
  
  - Github: [TatyanaYarush](https://github.com/TatyanaYarush)
+
+ - Video: [Walkthrough Video](https://www.youtube.com/watch?v=sq4SNRezLNo)
+
