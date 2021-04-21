@@ -6,13 +6,14 @@ function generateMarkdown(data) {
   https://github.com/${data.username}/${data.title}
 
   ## Table of Contents
-  -[Description](#description)
-  -[Installation](#installation)
-  -[License](#license)
-  -[Usage](#usage)
-  -[Contribution](#contribution)
-  -[Test](#test)
-=
+
+  - [Description](#description)
+  - [Installation](#installation)
+  - [License](#license)
+  - [Usage](#usage)
+  - [Contribution](#contribution)
+  - [Test](#test)
+
   ## Description
   ${data.description}
 
@@ -34,8 +35,9 @@ function generateMarkdown(data) {
  ## Questions
  For any additional information or questions find me at:
 
-  Email:[${data.email}](mailto:tatyana.yarushin@gmail.com)
-  Github:[${data.username}](https://github.com/TatyanaYarush)
+ - Email: [${data.email}](mailto:tatyana.yarushin@gmail.com)
+ 
+ - Github: [${data.username}](https://github.com/TatyanaYarush)
 `
 }
 
