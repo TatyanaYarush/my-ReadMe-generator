@@ -8,7 +8,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "inquirer": "^6.5.2"
+    "inquirer": "^6.5.2",
+    "path": "^0.12.7"
   },
+  "devDependencies": {},
   "description": ""
 }
